@@ -21,17 +21,17 @@ const Navbar = () => {
             <ul className="hidden lg:flex ml-14 space-x-12">
               {navItems.map((item, index) => (
                 <li key={index}>
-                  <a href={item.href}>{item.label}</a>
+                  <a className="hover:text-red-400" href={item.href}>{item.label}</a>
                 </li>
               ))}
             </ul>
             <div className="hidden lg:flex justify-center space-x-12 items-center">
-              <a href="#" className="py-2 px-3 border rounded-md">
+              <a href="#" className="py-2 px-3 border rounded-md hover:text-red-400">
                 Sign In
               </a>
               <a
                 href="#"
-                className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md">
+                className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md hover:text-red-300">
                 Create an account
               </a>
             </div>
