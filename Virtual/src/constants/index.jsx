@@ -142,6 +142,16 @@ export const pricingOptions = [
     ],
   },
   {
+    title: "Family",
+    price: "$60",
+    features: [
+      "Family Sharing",
+      "40 Gb Storage",
+      "High Performance Network",
+      "Private Mode",
+    ]
+  },
+  {
     title: "Enterprise",
     price: "$200",
     features: [
@@ -151,6 +161,7 @@ export const pricingOptions = [
       "Private Mode",
     ],
   },
+ 
 ];
 
 export const resourcesLinks = [
